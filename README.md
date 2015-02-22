@@ -26,7 +26,7 @@ Mean and standard deviation are self-explanatory, but I decided to remove meanFr
 
 For this particular script, I chose variables of independent measurements of activity/subject actions in order to make the measurement data have 1:1 matching to the subject/activity per line (thus the data set is considered wide format).
 
-I renamed the measurement variables to R readable cases and corrected some errors in the original features because I felt that would make it easier to see the data was tidy (e.g., symbols like -,(, or ) are not R valid names. Some manual cleaning for the names is done in the script (for some tough cases from the original 'features.txt'), but those lines can be skipped if the 'measurement_names.txt' is imported into the script. The file, 'Codebook.md', contains descriptions of all the variables used in the tidy data set.
+I renamed the measurement variables to R readable cases and corrected some errors in the original features because I felt that would make it easier to see the data was tidy (e.g., symbols like -,(, or ) are not R valid names). Some manual cleaning for the names is done in the script (for some tough cases from the original 'features.txt'), but those lines can be skipped if the 'measurement_names.txt' is imported into the script. The file, 'Codebook.md', contains descriptions of all the variables used in the tidy data set.
 
 The resulting file from the script, 'tidyset.txt', is a product from achieving Goal #5. The file summarizes the data for each subject/activity and averages each measurement. This file can be found in the master branch of this Github repository as well as on my Coursera project submission page.
 
