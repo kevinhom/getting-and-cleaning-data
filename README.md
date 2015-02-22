@@ -32,6 +32,9 @@ The resulting file from the script, 'tidyset.txt', is a product from achieving G
 
 Closing thoughts:
 
+The UCI data needs to be in a certain directory for the 'run_analysis.R' script to work:
+~/R Files/Getting and Cleaning Data Project/UCI HAR Dataset/
+
 WARNING: MAY NOT WORK FOR ALL COMPUTERS - You can use the following lines of code in a script to read the 'tidyset.txt' file into R:
 
 address <- "https://github.com/lemonkiwi/getting-and-cleaning-data/blob/master/tidyset.txt"
