@@ -28,8 +28,11 @@ Closing thoughts:
 WARNING: MAY NOT WORK FOR ALL COMPUTERS - You can use the following lines of code to read the 'tidyset.txt' file into R:
 
 address <- "https://github.com/lemonkiwi/getting-and-cleaning-data/blob/master/tidyset.txt"
+
 address <- sub("^https", "http", address)
+
 data <- read.table(url(address), header = TRUE) #if you use some other way of saving the file than a default write.table, this step will be different
+
 View(data)
 
 Please note that the very raw data from the Inertial folder were not utilized since the Test and Train X and Y data in the source data set already had transformed this data into somewhat usable format. 
