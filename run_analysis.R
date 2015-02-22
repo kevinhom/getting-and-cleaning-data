@@ -7,7 +7,6 @@
 # with the average of each variable for each activity and each subject.
 
 library(dplyr)
-library(tidyr)
 
 # First we will read the test and train X data
 # Then merge the two data sets together and combine with their labels
@@ -66,10 +65,6 @@ subject.data$Activity[subject.data$Activity == "3"] <- "WALKING DOWNSTAIRS"
 subject.data$Activity[subject.data$Activity == "4"] <- "SITTING"
 subject.data$Activity[subject.data$Activity == "5"] <- "STANDING"
 subject.data$Activity[subject.data$Activity == "6"] <- "LAYING"
-
-# Reorder the data for readability
-# Not necessary, but we can print after this line if we wanted all of the data points
-subject.data <- arrange(subject.data, Subject, Activity)
 
 # Goal #5 - Creating a second, independent tidy data set with the average of each variable
 # for each activity and subject
