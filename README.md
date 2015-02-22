@@ -24,6 +24,7 @@ I renamed the measurement variables to R readable cases and corrected some error
 The resulting file from the script, 'tidyset.txt', is a product from achieving Goal #5. The file summarizes the data for each subject/activity and averages each measurement. This file can be found in the master branch of this Github repository as well as on my Coursera project submission page.
 
 Closing thoughts:
+
 WARNING: MAY NOT WORK FOR ALL COMPUTERS - You can use the following lines of code to read the 'tidyset.txt' file into R:
 
 address <- "https://github.com/lemonkiwi/getting-and-cleaning-data/blob/master/tidyset.txt"
